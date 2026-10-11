@@ -1,42 +1,50 @@
-# BETTRACK PRO — Manual de uso y entrega (v1)
+# BETTRACK PRO — Manual de uso y entrega
 
-## Uso
-1. Abre la aplicación en un navegador moderno.
-2. En **Ajustes**, configura un saldo inicial si corresponde.
-3. En **Inicio**, registra una ganancia o pérdida con fecha, monto y nota.
-4. Revisa **Evolución del saldo** y **Ganancias y pérdidas por mes** (últimos seis meses).
-5. En **Calendario**, toca un día para ver el saldo acumulado a esa fecha.
-6. En **Historial**, filtra por tipo y busca por fecha o nota. Puedes eliminar movimientos.
-7. En **Ajustes**, descarga respaldos JSON y reportes CSV para hojas de cálculo.
+## Uso rápido
+
+1. Abre la aplicación en un navegador moderno mediante HTTPS o un servidor local.
+2. En **Ajustes**, configura el saldo inicial si corresponde.
+3. En **Inicio**, registra una ganancia o pérdida con fecha, monto y, opcionalmente, cuota y nota.
+4. Revisa la evolución del saldo y el resumen mensual.
+5. En **Calendario**, selecciona un día para consultar su saldo acumulado y cambio diario.
+6. En **Historial**, busca por nota o fecha y filtra por tipo.
+7. En **Ajustes**, exporta JSON para recuperar datos y CSV para analizarlos en una hoja de cálculo.
 
 ## Privacidad y recuperación
-- La app funciona sin cuenta y guarda los registros en el almacenamiento local del navegador.
-- Los registros NO se sincronizan entre dispositivos.
+
+- Los registros permanecen en el almacenamiento local de este navegador.
+- No se sincronizan entre dispositivos ni se envían a un servidor.
 - Antes de borrar datos del navegador o cambiar de dispositivo, descarga un respaldo JSON.
-- Para recuperar registros, usa **Restaurar respaldo JSON**. La restauración reemplaza los datos locales existentes.
-- Los CSV son informes; para restaurar información utiliza JSON.
+- Restaurar un JSON reemplaza los datos locales existentes después de validar el archivo y pedir confirmación.
+- Un CSV es un informe y no sirve para restaurar información.
+- La aplicación no gestiona apuestas, dinero, pagos ni contraseñas.
 
-## Instalación
-- Requiere navegador moderno con JavaScript y almacenamiento local.
-- Para instalar en alojamiento estático, coloca `index.html` en la raíz de un servidor web HTTPS.
-- No requiere base de datos, backend ni claves API.
-- Para personalizar nombre, colores y textos se debe editar el HTML/CSS/JS.
+## Desarrollo y despliegue
 
-## Pruebas de aceptación antes de entrega comercial
-- [ ] Registrar una ganancia y comprobar balance, historial, calendario y gráficos.
-- [ ] Registrar una pérdida y comprobar cálculo neto.
-- [ ] Probar movimientos en dos meses distintos.
-- [ ] Probar filtros de historial y búsqueda por nota/fecha.
-- [ ] Descargar y abrir CSV en hoja de cálculo.
-- [ ] Exportar JSON y restaurarlo en un navegador de prueba.
-- [ ] Cerrar y abrir la pestaña y comprobar persistencia.
-- [ ] Probar en Android y escritorio, incluido teclado y tamaño de pantalla.
-- [ ] Comprobar que el alojamiento HTTPS funciona sin errores de consola.
-- [ ] Validar manejo de datos inválidos y almacenamiento lleno.
-- [ ] Hacer revisión legal y de licencias antes de cualquier cesión exclusiva.
+```bash
+npm test
+python3 -m http.server 8080
+```
 
-## Entrega de derechos y límites
-El código de la demo ya ha sido público en GitHub. No puede asegurarse exclusividad retrospectiva sobre copias que terceros hayan obtenido. Una futura cesión de derechos necesita acuerdo escrito, revisión de titularidad, dependencias y condiciones precisas.
+Publica `index.html`, `styles.css`, `app.js` y `core.mjs` juntos en la raíz de un servidor HTTPS. No requiere base de datos, backend ni claves API. No abras `index.html` directamente si el navegador bloquea los módulos ES; usa un servidor HTTP local.
 
-## Estado
-Documentación de uso y checklist creados; pruebas manuales completas y auditoría independiente **pendientes**. No afirmar certificación, seguridad auditada ni precio de venta garantizado.
+## Checklist técnico antes de entregar
+
+- [x] Registrar ganancias y pérdidas y comprobar el balance.
+- [x] Probar cálculo de saldo al cierre de un día.
+- [x] Validar fechas imposibles, fechas futuras, montos, cuotas y notas.
+- [x] Probar filtros de historial y búsqueda.
+- [x] Exportar JSON y CSV.
+- [x] Validar restauración sin reemplazo parcial en caso de error.
+- [x] Mantener la persistencia existente (`bettrack_public_v1`).
+- [x] Ejecutar `npm test`.
+- [ ] Ejecutar pruebas manuales en Chrome, Safari y Firefox reales.
+- [ ] Ejecutar pruebas en Android/iOS y comprobar teclado, lector de pantalla y tamaños pequeños.
+- [ ] Revisar consola, HTTPS y cabeceras del alojamiento.
+- [ ] Hacer auditoría legal, de privacidad, licencias y seguridad independiente.
+
+## Entrega comercial
+
+Esta rama es una mejora de la demo local. Para una venta profesional todavía faltan cuentas, sincronización, recuperación, soporte, términos, política de privacidad, modelo de licencias, facturación y un plan de operación. No debe presentarse como servicio cloud multiusuario ni como producto financiero regulado.
+
+El código de la demo ya fue público en GitHub, por lo que una cesión exclusiva requiere revisión legal de titularidad y alcance. No incluir credenciales en el repositorio ni en los respaldos de usuario.
