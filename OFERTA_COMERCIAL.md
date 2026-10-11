@@ -1,32 +1,30 @@
-# BETTRACK PRO — Oferta comercial inicial
+# BETTRACK PRO — Propuesta de venta completa
 
-**Producto:** aplicación web de registro y seguimiento financiero personal o de pequeños negocios, de uso local y de usuario único.
+**Modalidad:** venta única del proyecto, con entrega de código fuente, archivos y documentación, y cesión de los derechos patrimoniales que el vendedor pueda acreditar y transferir mediante contrato.
 
-**Precio de publicación de prueba:** $99.990 CLP por licencia de uso, pago único. Precio orientativo sujeto a validación con compradores; no constituye valoración certificada.
+**Precio inicial de publicación:** $299.990 CLP, negociable. Es un precio propuesto para probar demanda, no una tasación profesional ni una oferta recibida.
 
-## Qué incluye
-- Registro de ingresos y gastos y consulta del historial.
-- Calendario, gráficos y filtros disponibles en la versión publicada.
-- Exportación CSV y respaldo/importación JSON.
-- Interfaz adaptable a celulares y computadores.
-- Entrega de archivos de la aplicación y guía de uso.
+## Qué se entrega
+- Código fuente actual de BETTRACK PRO y sus archivos HTML, CSS y JavaScript.
+- Documentación técnica y manuales disponibles en el repositorio.
+- Pruebas automatizadas incluidas y guía para desplegar la aplicación estática.
+- Una demostración de las funciones actuales de registro financiero, historial, gráficos, calendario y exportación.
 
-## Límites importantes
-- Los datos se guardan localmente en el navegador/dispositivo. No hay cuentas, sincronización cloud ni recuperación automática ante pérdida del dispositivo o borrado de datos; se recomienda exportar respaldos.
-- No se incluye alojamiento, servidor, soporte permanente ni personalización salvo acuerdo por escrito.
-- No se promete que la aplicación sea apta para contabilidad regulada, obligaciones tributarias o auditoría.
-- La compra propuesta es de una **licencia de uso no exclusiva**, no de propiedad intelectual ni derechos de reventa.
-- Las condiciones finales de licencia, privacidad y facturación deben revisarse antes de cobrar.
+## Alcance y advertencias
+- La aplicación funciona localmente, sin cuentas de usuario ni sincronización en la nube.
+- El repositorio y la demo han sido públicos. La venta no puede borrar copias previas ni garantizar exclusividad histórica.
+- Se deben revisar licencias de dependencias, contribuciones de terceros y titularidad del código antes de afirmar una cesión exclusiva.
+- No se incluyen marca registrada, dominio, cuentas personales, datos de usuarios ni servicios externos salvo que se pacte expresamente y sean transferibles.
+- Los términos definitivos de cesión, entrega, pago y responsabilidades requieren un acuerdo escrito y revisión legal apropiada.
+- No se garantiza idoneidad para contabilidad regulada, declaraciones tributarias o auditoría.
 
-## Mensaje breve para clientes
-«Hola, desarrollamos BETTRACK PRO, una herramienta web para registrar ingresos y gastos, ver gráficos y revisar movimientos por fecha. Funciona de manera local y permite exportar respaldos. Estamos ofreciendo una licencia de uso por pago único de $99.990 CLP. Te puedo compartir una demostración para que evalúes si te sirve.»
+## Mensaje de venta para interesados
+«Vendo proyecto completo BETTRACK PRO, una aplicación web de seguimiento financiero con interfaz adaptable a celular y PC, historial, calendario, gráficos y exportación de datos. Incluye código fuente y documentación para que el comprador pueda continuar desarrollándolo. Precio inicial: $299.990 CLP, conversable. Se puede revisar la demo antes de negociar la entrega y cesión de derechos.»
 
 **Demo:** https://tobarcarrascom-wq.github.io/BETTRACK/
 
-## Próximos pasos
-1. Probar la versión actual en celular y PC con datos de ejemplo.
-2. Definir licencia definitiva y verificar dependencias de terceros.
-3. Preparar un paquete de entrega probado y una demostración sin datos reales.
-4. Buscar compradores y registrar sus respuestas antes de fijar precio definitivo.
-
-**Estado:** material comercial preparado; no se han contactado clientes ni efectuado ventas.
+## Pendiente antes de cerrar una venta
+1. Revisar titularidad y licencias del código y definir exactamente los derechos transferibles.
+2. Verificar funcionamiento y preparar paquete de entrega.
+3. Acordar por escrito precio, forma de pago, alcance de la cesión y condiciones de soporte.
+4. Buscar interesados; no hay compradores confirmados ni pagos realizados.
