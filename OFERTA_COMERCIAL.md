@@ -2,7 +2,7 @@
 
 **Modalidad:** venta única del proyecto, con entrega de código fuente, archivos y documentación, y cesión de los derechos patrimoniales que el vendedor pueda acreditar y transferir mediante contrato.
 
-**Precio inicial de publicación:** $299.990 CLP, negociable. Es un precio propuesto para probar demanda, no una tasación profesional ni una oferta recibida.
+**Precio inicial de publicación:** $150.000 CLP, negociable. Es un precio propuesto para probar demanda, no una tasación profesional ni una oferta recibida.
 
 ## Qué se entrega
 - Código fuente actual de BETTRACK PRO y sus archivos HTML, CSS y JavaScript.
@@ -19,7 +19,7 @@
 - No se garantiza idoneidad para contabilidad regulada, declaraciones tributarias o auditoría.
 
 ## Mensaje de venta para interesados
-«Vendo proyecto completo BETTRACK PRO, una aplicación web de seguimiento financiero con interfaz adaptable a celular y PC, historial, calendario, gráficos y exportación de datos. Incluye código fuente y documentación para que el comprador pueda continuar desarrollándolo. Precio inicial: $299.990 CLP, conversable. Se puede revisar la demo antes de negociar la entrega y cesión de derechos.»
+«Vendo proyecto completo BETTRACK PRO, una aplicación web de seguimiento financiero con interfaz adaptable a celular y PC, historial, calendario, gráficos y exportación de datos. Incluye código fuente y documentación para que el comprador pueda continuar desarrollándolo. Precio inicial: $150.000 CLP, conversable. Se puede revisar la demo antes de negociar la entrega y cesión de derechos.»
 
 **Demo:** https://tobarcarrascom-wq.github.io/BETTRACK/
 
